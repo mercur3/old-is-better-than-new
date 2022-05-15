@@ -1,0 +1,8 @@
+* Old is better than new
+** Description
+An extension for Firefox that redirects the request from new Reddit site to the old one.
+
+** Why to use this extension
+- New Reddit bad ❌! Slow, consumes a lot of RAM, 1 million trackers spying on you.
+- Old Reddit good ✅! Fast, ..., that's it. (no dark mode support 🥺)
+

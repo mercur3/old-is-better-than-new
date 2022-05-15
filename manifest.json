@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Old is better than new",
+    "version": "1.0",
+    "developer": {
+        "name": "Andri Reveli",
+        "url": "https://gitlab.com/mercur3/old-is-better-than-new"
+    },
+    "description": "An extension for Firefox that redirects the request from new Reddit site to the old one.",
+    "permissions": [
+        "webNavigation",
+        "webRequest"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["https://www.reddit.com/*"],
+            "js": ["script.js"],
+            "run_at": "document_start"
+        }
+    ]
+}
+
